@@ -50,9 +50,9 @@ export class News extends Component {
 
   // Function to calculate the last index for pagination
   lastIndex = (articlesArray) => {
-    let temp = articlesArray.length % 6;
-    let lastIndex = articlesArray.length - temp;
-    return lastIndex;
+    // let temp = articlesArray.length % 6;
+    // let lastIndex = articlesArray.length - temp;
+    return articlesArray.length;
   };
 
   // Fetch articles when the component first mounts
@@ -82,7 +82,7 @@ export class News extends Component {
       this.setState({
         articles: articles,
         LastIndex: lastIndex,
-        Pages: lastIndex / 6,
+        Pages: Math.ceil(lastIndex / 6),
         InitialIndex: 0,
         MiddleIndex: 6,
         CurrentPage: 1,
