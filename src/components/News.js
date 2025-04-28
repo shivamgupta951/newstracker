@@ -73,7 +73,7 @@ export class News extends Component {
       // Start loading before fetch
       this.setState({ loading: true });
 
-      const url = `https://gnews.io/api/v4/top-headlines?topic=${this.props.category}&token=7021e859c17c67a766270bd98b0e95a5&lang=en&country=in&max=30`;
+      const url = `https://gnews.io/api/v4/top-headlines?topic=${this.props.category}&token=c8e4d004d9d7208dca21b13c49009276&lang=en&country=in&max=30`;
       const data = await fetch(url);
       const parsedData = await data.json();
       const articles = parsedData.articles || [];
