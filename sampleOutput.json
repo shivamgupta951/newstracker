@@ -1,166 +1,29 @@
 {
-  "status": "ok",
-  "totalResults": 32,
+  "totalArticles": 212624,
   "articles": [
     {
-      "source": { "id": "the-verge", "name": "The Verge" },
-      "author": "Wes Davis",
-      "title": "Sony shows off the PS5 Pro’s liquid metal updates - The Verge",
-      "description": "Sony highlights updated liquid metal cooling design in the PS5 Pro aimed at better stabilizing the material’s cooling effect.",
-      "url": "https://www.theverge.com/news/652556/ps5-pro-teardown-liquid-metal-cooling-changes",
-      "urlToImage": "https://platform.theverge.com/wp-content/uploads/sites/2/chorus/uploads/chorus_asset/file/25717639/247361_PS5_Pro_VPavic_40_2.jpg?quality=90&strip=all&crop=0%2C10.76363770124%2C100%2C78.472724597521&w=1200",
-      "publishedAt": "2025-04-21T18:06:34Z",
-      "content": "New grooves may address complaints of liquid metal leaking in the standard PS5.\r\nNew grooves may address complaints of liquid metal leaking in the standard PS5.\r\nSony has published a new teardown of … [+1843 chars]"
+      "title": "SEBI cracks India's first big \"spoofing\" case that involved a stock broker and 173 stocks",
+      "description": "The regulator investigated Patel Wealth Advisors and its directors over three years",
+      "content": "Spoofing involves placing large, phantom orders that are disclosed but way below the market price to create a false impression of demand.\nA stock broker who \"spoofed\" orders to create an artificial demand for stocks, and its associates, have been ask... [2843 chars]",
+      "url": "https://www.moneycontrol.com/news/business/markets/sebi-cracks-indias-first-big-spoofing-case-that-involved-a-stock-broker-and-173-stocks-13007233.html",
+      "image": "https://images.moneycontrol.com/static-mcnews/2025/02/20250217064158_Online-Student-Scam.png",
+      "publishedAt": "2025-04-28T11:52:24Z",
+      "source": {
+        "name": "Moneycontrol",
+        "url": "https://www.moneycontrol.com"
+      }
     },
     {
-      "source": { "id": null, "name": "On3.com" },
-      "author": "Sam Gillenwater",
-      "title": "Report: Tennessee to meet with top transfer quarterback after Nico Iamaleava departure - On3.com",
-      "description": ".",
-      "url": "https://www.on3.com/college/tennessee-volunteers/news/report-tennessee-meeting-with-former-ucla-qb-joey-aguilar-after-nico-iamaleava-transfer/",
-      "urlToImage": "https://on3static.com/uploads/dev/assets/cms/2024/01/30180850/tennessee_logo.jpg",
-      "publishedAt": "2025-04-21T17:48:45Z",
-      "content": "UCLAofficially adding QB Nico Iamaleava in the portal on Sunday changed things for QB Joey Aguilar, who transferred this offseason, as he intends to transfer again per news on Monday. Now, it could a… [+2340 chars]"
-    },
-    {
-      "source": { "id": null, "name": "CBM (Comic Book Movie)" },
-      "author": "JoshWilding",
-      "title": "ANDOR Season 2's Rotten Tomatoes Score Revealed As First Reviews Arrive For Latest STAR WARS TV Series - ComicBookMovie.com",
-      "description": "ANDOR Season 2's Rotten Tomatoes Score Revealed As First Reviews Arrive For Latest STAR WARS TV Series",
-      "url": "https://comicbookmovie.com/tv/star-wars/cassian-andor/andor-season-2s-rotten-tomatoes-score-revealed-as-first-reviews-arrive-for-latest-star-wars-tv-series-a218843",
-      "urlToImage": "https://comicbookmovie.com/images/articles/banners/andor-season-2s-rotten-tomatoes-score-revealed-as-first-reviews-arrive-for-latest-star-wars-tv-series-ab218843.jpg",
-      "publishedAt": "2025-04-21T17:38:02Z",
-      "content": "As we first reported on SFFGazette.com, the reviews are in for Andor season 2, and they're just as positive as those for the show's first season.\r\nThere are a few familiar complaints, mostly about th… [+3455 chars]"
-    },
-    {
-      "source": { "id": "axios", "name": "Axios" },
-      "author": "Maya Goldman",
-      "title": "Supreme Court seems likely to uphold ACA preventive services mandate - Axios",
-      "description": "The outcome could decide access to no-cost screenings, tests, HIV drugs and counseling for Americans with private health insurance.",
-      "url": "https://www.axios.com/2025/04/21/aca-supreme-court-preventive-services",
-      "urlToImage": "https://images.axios.com/o8MC_nkoHyyY4VmqYCpcKRdt71o=/0x0:4000x2250/1366x768/2025/04/21/1745242578191.jpg",
-      "publishedAt": "2025-04-21T17:26:30Z",
-      "content": "Supreme Court justices appeared inclined Monday to keep the Affordable Care Act's requirement that insurers cover certain recommended preventive services at no cost.\r\nWhy it matters: At stake is acce… [+1378 chars]"
-    },
-    {
-      "source": { "id": null, "name": "NPR" },
-      "author": "",
-      "title": "Exclusive: The White House is looking to replace Pete Hegseth as defense secretary - NPR",
-      "description": "The White House has begun the process of looking for a new secretary of defense, according to a U.S. official who was not authorized to speak publicly.",
-      "url": "https://www.npr.org/2025/04/21/nx-s1-5371312/trump-white-house-pete-hegseth-defense-department",
-      "urlToImage": "https://npr.brightspotcdn.com/dims3/default/strip/false/crop/5180x2914+0+0/resize/1400/quality/100/format/jpeg/?url=http%3A%2F%2Fnpr-brightspot.s3.amazonaws.com%2F50%2F9b%2F4c844fd74a9fba31fd301a046258%2Fgettyimages-2211267281.jpg",
-      "publishedAt": "2025-04-21T17:22:51Z",
-      "content": "The White House has begun the process of looking for a new secretary of defense, according to a U.S. official who was not authorized to speak publicly. \r\nThis comes as Defense Secretary Pete Hegseth … [+1047 chars]"
-    },
-    {
-      "source": { "id": null, "name": "Ftc.gov" },
-      "author": null,
-      "title": "FTC Takes Action Against Uber for Deceptive Billing and Cancellation Practices - Federal Trade Commission (.gov)",
-      "description": "The Federal Trade Commission filed a lawsuit today against Uber, alleging the rideshare and delivery company charged consumers for its Uber One subscription service without their consent, failed to",
-      "url": "https://www.ftc.gov/news-events/news/press-releases/2025/04/ftc-takes-action-against-uber-deceptive-billing-cancellation-practices",
-      "urlToImage": "https://www.ftc.gov/themes/custom/ftc_uswds/img/ftc_social_share_default_en.jpg",
-      "publishedAt": "2025-04-21T17:00:00Z",
-      "content": "The Federal Trade Commission filed a lawsuit today against Uber, alleging the rideshare and delivery company charged consumers for its Uber One subscription service without their consent, failed to d… [+3040 chars]"
-    },
-    {
-      "source": { "id": "ars-technica", "name": "Ars Technica" },
-      "author": "Andrew Cunningham",
-      "title": "In depth with Windows 11 Recall—and what Microsoft has (and hasn’t) fixed - Ars Technica",
-      "description": "Original botched launch still haunts new version of data-scraping AI feature.",
-      "url": "https://arstechnica.com/gadgets/2025/04/in-depth-with-windows-11-recall-and-what-microsoft-has-and-hasnt-fixed/",
-      "urlToImage": "https://cdn.arstechnica.net/wp-content/uploads/2025/04/recall-feature-1152x648-1745247831.jpg",
-      "publishedAt": "2025-04-21T16:51:34Z",
-      "content": null
-    },
-    {
-      "source": { "id": "techcrunch", "name": "TechCrunch" },
-      "author": "Amanda Silberling",
-      "title": "Bluesky launches blue check verification - TechCrunch",
-      "description": "Bluesky announced on Monday that it is rolling out blue check verification, confirming previous rumors that this feature was on its way to the platform.",
-      "url": "https://techcrunch.com/2025/04/21/bluesky-launches-blue-check-verification/",
-      "urlToImage": "https://techcrunch.com/wp-content/uploads/2022/11/twitter-verified.jpg?resize=1200,813",
-      "publishedAt": "2025-04-21T16:37:04Z",
-      "content": "Bluesky announced on Monday that it is rolling out blue check verification, confirming previous rumors that this feature was on its way to the platform.\r\nLike Twitter’s original blue check (RIP), Blu… [+1505 chars]"
-    },
-    {
-      "source": { "id": null, "name": "Sports Illustrated" },
-      "author": "Tim Capurso",
-      "title": "Jimmy Butler Had Priceless Reaction to Steph Curry’s Ridiculous Shot vs. Rockets - Sports Illustrated",
-      "description": "Even Butler was left shaking his head watching Curry.",
-      "url": "https://www.si.com/nba/jimmy-butler-priceless-reaction-steph-curry-ridiculous-shot-vs-rockets",
-      "urlToImage": "https://images2.minutemediacdn.com/image/upload/c_crop,w_612,h_344,x_0,y_0/c_fill,w_1440,ar_16:9,f_auto,q_auto,g_auto/images/voltaxMediaLibrary/mmsport/si/01jscf6ehndssp491tcd.png",
-      "publishedAt": "2025-04-21T15:50:32Z",
-      "content": "With a barrage of three-pointers and shifty slashes into the paint, Stephen Curry put on a show for the Golden State Warriors, scoring a game-high 31 points in his team's 95-85 Game 1 win over the Ho… [+1544 chars]"
-    },
-    {
-      "source": { "id": null, "name": "Deadline" },
-      "author": "Denise Petski",
-      "title": "Pedro Pascal Reacts To 'The Last Of Us' Shocker; Bella Ramsey \"Sobbed\" - Deadline",
-      "description": "Pedro Pascal and Bella Ramsey react to Sunday night's heartbreaking episode on 'The Last Of Us'.",
-      "url": "http://deadline.com/2025/04/pedro-pascal-reaction-the-last-of-us-death-bella-ramsey-1236372803/",
-      "urlToImage": "https://deadline.com/wp-content/uploads/2025/04/pedro-pascal_1.jpg?w=1024",
-      "publishedAt": "2025-04-21T15:32:00Z",
-      "content": "SPOILER ALERT! This post contains major details from Sunday’s episode of HBO‘s The Last of Us.\r\nPedro Pascal is reacting to Sunday night’s heartbreaking episode which saw the death of his character J… [+2658 chars]"
-    },
-    {
-      "source": { "id": null, "name": "Barron's" },
-      "author": "Barron's",
-      "title": "Tesla Stock Is Falling. Odometer Lawsuit, Earnings Loom Over Shares. - Barron's",
-      "description": null,
-      "url": "https://www.barrons.com/articles/tesla-stock-price-earnings-odmoter-lawsuit-71c72bfd",
-      "urlToImage": null,
-      "publishedAt": "2025-04-21T14:22:00Z",
-      "content": null
-    },
-    {
-      "source": { "id": "cnn", "name": "CNN" },
-      "author": "Josh Campbell, Kit Maher",
-      "title": "Homeland Security Secretary Kristi Noem’s bag, including $3,000 in cash, is stolen from DC restaurant - CNN",
-      "description": "Department of Homeland Security Secretary Kristi Noem fell victim to a thief while eating dinner at a downtown Washington, DC, restaurant Sunday night, two sources familiar with the incident, including a law enforcement source, told CNN.",
-      "url": "https://www.cnn.com/2025/04/21/politics/homeland-security-kristi-noem-purse-stolen/index.html",
-      "urlToImage": "https://media.cnn.com/api/v1/images/stellar/prod/c-still-21330579-1969356-63-still.jpg?c=16x9&q=w_800,c_fill",
-      "publishedAt": "2025-04-21T14:13:00Z",
-      "content": "Department of Homeland Security Secretary Kristi Noem fell victim to a thief while eating dinner at a downtown Washington, DC, restaurant Sunday night, two sources familiar with the incident, includi… [+541 chars]"
-    },
-    {
-      "source": { "id": "abc-news", "name": "ABC News" },
-      "author": "ABC News",
-      "title": "Read Pope Francis' final Easter address - ABC News",
-      "description": null,
-      "url": "https://abcnews.go.com/International/read-pope-francis-final-easter-address/story?id\\\\u003d121006377",
-      "urlToImage": null,
-      "publishedAt": "2025-04-21T14:03:45Z",
-      "content": null
-    },
-    {
-      "source": { "id": "cnn", "name": "CNN" },
-      "author": "Kameryn Griesser, Ashley Strickland",
-      "title": "Lyrid meteor shower kicks off the season: How and when to watch - CNN",
-      "description": "Look up to watch April’s Lyrid meteor shower, which will peak on Monday night into Tuesday.",
-      "url": "https://www.cnn.com/2025/04/21/science/lyrids-meteor-shower-april-2025/index.html",
-      "urlToImage": "https://media.cnn.com/api/v1/images/stellar/prod/gettyimages-1252144843.jpg?c=16x9&q=w_800,c_fill",
-      "publishedAt": "2025-04-21T14:00:00Z",
-      "content": "Sign up for CNNs Wonder Theory science newsletter. Explore the universe with news on fascinating discoveries, scientific advancements and more.\r\nAfter months without a meteor shower, sky-gazers now h… [+5169 chars]"
-    },
-    {
-      "source": { "id": "cnn", "name": "CNN" },
-      "author": "Katherine Dillinger",
-      "title": "Cancer death rates declining, new report says, but diagnosis rates are on the rise for women - CNN",
-      "description": "A new report on cancer in the US shows a steady decline in overall deaths from 2001 through 2022. The rate of diagnoses among men fell from 2001 through 2013 and then stabilized through 2021 but these incidence rates among women increased slightly every year …",
-      "url": "https://www.cnn.com/2025/04/21/health/cancer-women-diagnosis/index.html",
-      "urlToImage": "https://media.cnn.com/api/v1/images/stellar/prod/gettyimages-1165005986.jpg?c=16x9&q=w_800,c_fill",
-      "publishedAt": "2025-04-21T14:00:00Z",
-      "content": "A new report on cancer in the US shows a steady decline in overall deaths from 2001 through 2022. The rate of diagnoses among men fell from 2001 through 2013 and then stabilized through 2021 but thes… [+3673 chars]"
-    },
-    {
-      "source": { "id": null, "name": "NDTV News" },
-      "author": "Abhishek Chakraborty",
-      "title": "US Vice President JD Vance Meets PM Modi, Talks Focus On Trade Deal - NDTV",
-      "description": "JD Vance, who is in India for a four-day visit, met Prime Minister Narendra Modi today for a closed-door meeting. The meeting between the two leaders came at a time when the world is facing uncertainty over a raging US-China trade war.",
-      "url": "https://www.ndtv.com/world-news/us-vice-president-jd-vance-meets-pm-modi-talks-likely-to-focus-on-trade-deal-8219415",
-      "urlToImage": "https://c.ndtvimg.com/2025-04/h9uk26jo_modi-vance-meeting_625x300_21_April_25.jpg?im=FeatureCrop,algorithm=dnn,width=1200,height=738",
-      "publishedAt": "2025-04-21T13:44:51Z",
-      "content": "New Delhi: US Vice President JD Vance, who is in India for a four-day visit, met Prime Minister Narendra Modi today for a closed-door meeting. The meeting between the two leaders came at a time when … [+4903 chars]"
+      "title": "Shriram Finance Share Price Target: NBFC stock tanks 9% in 1 day - Time to grab the opportunity? BUY, SELL or HOLD",
+      "description": "Shriram Finance Share Price Target: Shares of Shriram Finance tumbled as much as 9 per cent in today's trading session. The stock witnessed heavy volume trade with 12.90 lakh shares changing hands against the two weeks’ average quantity of 1.59 lakh shares. Also, the company reported an 18 per cent YoY jump in its interest income that stood at Rs 10,790 crore. Should you BUY, SELL, or HOLD?",
+      "content": "Shriram Finance Share Price Target : Shares of Shriram Finance tumbled as much as 9 per cent in today's trading session. The stock witnessed heavy volume trade with 12.90 lakh shares changing hands against the two weeks’ average quantity of 1.59 lakh... [2627 chars]",
+      "url": "https://www.etnownews.com/markets/shriram-finance-share-price-target-nbfc-stock-tanks-9-in-1-day-time-to-grab-the-opportunity-buy-sell-or-hold-article-151522131",
+      "image": "https://images.etnownews.com/thumb/msid-151522131,updatedat-1745837501032,width-1280,height-720,resizemode-75/151522131.jpg",
+      "publishedAt": "2025-04-28T10:51:40Z",
+      "source": {
+        "name": "ET Now",
+        "url": "https://www.etnownews.com"
+      }
     }
   ]
 }

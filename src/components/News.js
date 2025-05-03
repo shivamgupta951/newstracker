@@ -3,8 +3,8 @@ import Newsitem from "./Newsitem";
 import { AiOutlineRead } from "react-icons/ai";
 
 export class News extends Component {
-  constructor() {
-    super();
+  constructor(props) {
+    super(props);
     // Initialize state
     this.state = {
       articles: [],
@@ -12,10 +12,13 @@ export class News extends Component {
       MiddleIndex: 6,
       Pages: 1,
       CurrentPage: 1,
-      loading: true, // Loading initially true when component loads
+      loading: true, 
     };
   }
-
+  capitalise = (value) =>
+  {
+    return value.charAt(0).toUpperCase() + value.slice(1);
+  }
   // Method to handle left pagination (previous page)
   updatepageleft = (number) => {
     if (number === 0) {
@@ -72,13 +75,14 @@ export class News extends Component {
     try {
       // Start loading before fetch
       this.setState({ loading: true });
-
-      const url = `https://gnews.io/api/v4/top-headlines?topic=${this.props.category}&token=c8e4d004d9d7208dca21b13c49009276&lang=en&country=in&max=30`;
+      this.props.setProgress(10);
+      const url = `https://gnews.io/api/v4/top-headlines?topic=${this.props.category}&token=${this.props.apiKey}&lang=en&country=in&max=30`;
       const data = await fetch(url);
       const parsedData = await data.json();
       const articles = parsedData.articles || [];
       const lastIndex = this.lastIndex(articles);
-
+      document.title=`${this.capitalise(this.props.category)} - NewsTracker`
+      this.props.setProgress(0);
       this.setState({
         articles: articles,
         LastIndex: lastIndex,
@@ -87,10 +91,11 @@ export class News extends Component {
         MiddleIndex: 6,
         CurrentPage: 1,
       });
-
+      this.props.setProgress(60);
       // After fetch done, hide loading after 3 seconds
       setTimeout(() => {
         this.setState({ loading: false });
+        this.props.setProgress(100);
       }, 3000);
     } catch (error) {
       console.error("Error fetching articles:", error);
@@ -123,7 +128,7 @@ export class News extends Component {
         <div
           className="container my-5 newssection"
           style={{
-            height: "850px",
+            height: "950px",
             width: "700px",
             backgroundColor: "#102639",
             border: "5px solid white",
@@ -148,7 +153,7 @@ export class News extends Component {
 
           <div
             className="container border my-4"
-            style={{ height: "650px", borderRadius: "20px" }}
+            style={{ height: "760px", borderRadius: "20px" }}
           >
             <div className="d-flex flex-wrap justify-content-around align-items-center my-4">
               {/* Render news items */}
@@ -183,6 +188,8 @@ export class News extends Component {
                         : "https://th.bing.com/th?q=Local+News&w=120&h=120&c=1&rs=1&qlt=90&cb=1&dpr=1.3&pid=InlineBlock&mkt=en-IN&cc=IN&setlang=en&adlt=moderate&t=1&mw=247"
                     }
                     newsurl={element.url}
+                    published={element.publishedAt}
+                    author={element.source.name}
                   />
                 ))}
             </div>
