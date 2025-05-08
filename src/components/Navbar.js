@@ -2,6 +2,8 @@ import React, { Component } from "react";
 import { HiOutlineHome } from "react-icons/hi";
 import { IoIosInformationCircle } from "react-icons/io";
 import { IoIosContacts } from "react-icons/io";
+import { NavLink } from "react-router-dom"; // ✅ Imported NavLink
+
 export class Navbar extends Component {
   render() {
     return (
@@ -9,13 +11,15 @@ export class Navbar extends Component {
         <div style={{ backgroundColor: "#8fadcb" }}>
           <nav className="navbar navbar-expand-lg" style={{ backgroundColor: "#8fadcb" }}>
             <div className="container-fluid">
-              <a
+              {/* ✅ Changed <a> to NavLink for brand/logo */}
+              <NavLink
                 className="navbar-brand"
-                href="/"
-                style={{ border: "2px solid black", padding: "2px",outline: "2px solid white"}}
+                to="/"
+                style={{ border: "2px solid black", padding: "2px", outline: "2px solid white" }}
               >
                 <strong>NewsTracker</strong>
-              </a>
+              </NavLink>
+
               <button
                 className="navbar-toggler"
                 type="button"
@@ -27,23 +31,29 @@ export class Navbar extends Component {
               >
                 <span className="navbar-toggler-icon"></span>
               </button>
+
               <div className="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul className="navbar-nav me-auto mb-2 mb-lg-0">
+
+                  {/* ✅ Replaced <a> with NavLink for routing */}
                   <li className="nav-item">
-                    <a className="nav-link active" aria-current="page" href="/">
-                      Home <HiOutlineHome style={{marginBottom: "3px"}}/>
-                    </a>
+                    <NavLink className="nav-link" to="/">
+                      Home <HiOutlineHome style={{ marginBottom: "3px" }} />
+                    </NavLink>
                   </li>
-                  <li className="nav-item" style={{marginLeft: "4px"}}>
-                    <a className="nav-link" href="/">
-                      About App <IoIosInformationCircle style={{marginBottom: "3px"}}/>
-                    </a>
+
+                  <li className="nav-item" style={{ marginLeft: "4px" }}>
+                    <NavLink className="nav-link" to="/about">
+                      About App <IoIosInformationCircle style={{ marginBottom: "3px" }} />
+                    </NavLink>
                   </li>
-                  <li className="nav-item" style={{marginLeft: "4px"}}>
-                    <a className="nav-link" href="/">
-                      Contact Us <IoIosContacts style={{marginBottom: "3px"}}/>
-                    </a>
+
+                  <li className="nav-item" style={{ marginLeft: "4px" }}>
+                    <NavLink className="nav-link" to="/contactus">
+                      Contact Us <IoIosContacts style={{ marginBottom: "3px" }} />
+                    </NavLink>
                   </li>
+
                 </ul>
                 <form className="d-flex" role="search">
                   <input

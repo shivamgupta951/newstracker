@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 import { AiOutlineWallet } from "react-icons/ai";
 import NewsSectionsNavbar from "./NewsSectionsNavbar";
-
+import profileimage from "../images/ProfileImage.png";
 class Titlesection extends Component {
   constructor(props) {
     super(props);
@@ -32,9 +32,11 @@ class Titlesection extends Component {
     };
     return (
       <>
-        <div className="d-flex justify-content-end align-items-center">
+        <div className="d-flex justify-content-end ">
           <div>
-            <NewsSectionsNavbar onButtonCategoryChange={this.props.onCategoryChange} />
+            <NewsSectionsNavbar
+              onButtonCategoryChange={this.props.onCategoryChange}
+            />
           </div>
           <div
             className="d-flex justify-content-center align-items-center"
@@ -47,10 +49,9 @@ class Titlesection extends Component {
             </h1>
           </div>
           <div
-            className="d-flex justify-content-around align-items-center"
+            className="d-flex justify-content-around"
             style={{
               width: "300px",
-              backgroundColor: "#564ea0",
               marginLeft: "15%",
             }}
           >
@@ -62,6 +63,8 @@ class Titlesection extends Component {
                 fontSize: "12px",
                 borderRadius: "10px",
                 backgroundColor: "#b44d5f",
+                marginRight: "10px",
+                marginTop: "2px"
               }}
             >
               <div className="form-check form-switch">
@@ -80,56 +83,58 @@ class Titlesection extends Component {
               </div>
             </div>
             <div>
-              <div
-                className="d-flex justify-content-center align-items-center"
-                style={{
-                  height: "30px",
-                  width: "120px",
-                  paddingTop: "4px",
-                }}
-              >
-                <button
-                  type="button"
-                  className="btn border"
-                  style={{
-                    height: "30px",
-                    width: "30px",
-                    backgroundColor: "black",
-                    borderRadius: "5px",
-                    marginLeft: "3px",
-                  }}
-                ></button>
-                <button
-                  type="button"
-                  className="btn border"
-                  style={{
-                    height: "30px",
-                    width: "30px",
-                    backgroundColor: "black",
-                    borderRadius: "5px",
-                    marginLeft: "3px",
-                  }}
-                ></button>
-                <button
-                  type="button"
-                  className="btn border"
-                  style={{
-                    height: "30px",
-                    width: "30px",
-                    backgroundColor: "black",
-                    borderRadius: "5px",
-                    marginLeft: "3px",
-                  }}
-                ></button>
-              </div>
               <div className="d-flex justify-content-center align-items-center">
-                <strong>Themes</strong>
+                <div
+                  className="d-flex justify-content-start align-items-center"
+                  style={{
+                    height: "40px",
+                    border: "2px solid red",
+                    width: "130px",
+                    marginRight: "10px",
+                    borderTop: "0px",
+                    borderRadius: "5px",
+                  }}
+                >
+                  <div
+                    className="d-flex justify-content-center align-items-center"
+                    style={{
+                      height: "38px",
+                      width: "70px",
+                      fontSize: "10px",
+                      color: "red",
+                      fontFamily: "cursive",
+                    }}
+                  >
+                    {" "}
+                    Created By
+                  </div>
+                  <div
+                    style={{
+                      height: "30px",
+                      border: "1px solid grey",
+                      width: "30px",
+                      marginLeft: "5px",
+                      borderRadius: "50%",
+                    }}
+                  >
+                    <img
+                      src={profileimage}
+                      alt="About TextUtils Banner"
+                      style={{
+                        width: "100%",
+                        height: "100%",
+                        objectFit: "cover",
+                        borderRadius: "50%", // Optional: for a circular image
+                      }}
+                    />
+                  </div>
+                </div>
               </div>
             </div>
           </div>
         </div>
         <style>
-        {`
+          {`
           .card-hover1 {
             transition: transform 0.3s ease, box-shadow 0.3s ease;
           }
@@ -139,7 +144,7 @@ class Titlesection extends Component {
             box-shadow: 8px 8px 25px rgba(0, 0, 0, 0.5);
           }
         `}
-      </style>
+        </style>
       </>
     );
   }

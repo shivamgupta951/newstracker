@@ -96,7 +96,7 @@ export class News extends Component {
       setTimeout(() => {
         this.setState({ loading: false });
         this.props.setProgress(100);
-      }, 3000);
+      }, 2000);
     } catch (error) {
       console.error("Error fetching articles:", error);
       this.setState({ loading: false }); // Hide loading even if error happens
