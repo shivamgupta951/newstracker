@@ -5,7 +5,7 @@ export class NewsSectionsNavbar extends Component {
   render() {
     return (
       <>
-        <div>
+        <div style={{backgroundColor: "black",width: "585px"}}>
           <div className="d-flex justify-content-center align-items-center">
             <h4 style={{ color: "#c84d4d" }}>News Category</h4>
           </div>

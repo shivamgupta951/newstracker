@@ -73,6 +73,7 @@ class Titlesection extends Component {
                   type="checkbox"
                   role="switch"
                   id="switchCheckDefault"
+                  onClick={this.props.modeChange}
                 />
                 <label
                   className="form-check-label"

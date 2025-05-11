@@ -7,13 +7,7 @@ import LoadingBar from "react-top-loading-bar";
 import About from "./components/About";
 import { HashRouter as Router, Routes, Route } from "react-router-dom";
 import Contact from "./components/contact";
-/* work on light theme and dark theme colour matches in all 3 pages.
-   add a personal logo instead of colour pallets
-   change the context of about.js fort this app and image 
-   add NewsTracker heading same as home page in other pages
-   add alert for pages shifting for 3 seconds timer
-   work on css styling of other 2 pages 
-*/
+import Alert from "./components/Alert";
 export default class App extends Component {
   constructor() {
     super();
@@ -22,35 +16,66 @@ export default class App extends Component {
       category: "business",
       progress: 0,
       apikey: process.env.REACT_APP_NEWS_API,
+      lightmode: false,
+      alert: "dark",
+      basealert: true,
+      alerttimer: false,
     };
   }
   // Function to update the category state when button is clicked
   handleCategoryChange = (newCategory) => {
     this.setState({ category: newCategory });
   };
+  handlelightmode = () => {
+    this.setState(
+      (prevState) => {
+        const newLightMode = !prevState.lightmode;
+        return {
+          lightmode: newLightMode,
+          alert: newLightMode ? "light" : "dark",
+          basealert: false,
+          alerttimer: true,
+        };
+      },
+      () => {
+        setTimeout(() => {
+          this.setState({ alerttimer: false });
+        }, 3000);
+      }
+    );
+  };
   setprogress = (value) => {
     this.setState({ progress: value });
   };
   render() {
+    const { lightmode } = this.state;
+    const backgroundColor = lightmode ? "#2f558f" : "#111316";
     return (
       <>
         <Router>
-          <div style={{ backgroundColor: "#111316", height: "1300px" }}>
+          <div
+            className="maindiv"
+            style={{ backgroundColor, height: "1300px" }}
+          >
             <Navbar />
             <LoadingBar
               color="#f11946"
               height={3}
               progress={this.state.progress}
             />
+            {this.state.alerttimer && !this.state.basealert && (
+              <Alert title={this.state.alert} />
+            )}
             <Routes>
               <Route path="/about" element={<About />} />{" "}
-              <Route path="/contactus" element={<Contact/>} />{" "}
+              <Route path="/contactus" element={<Contact />} />{" "}
               <Route
                 path="/"
                 element={
                   <>
                     <Titlesection
                       onCategoryChange={this.handleCategoryChange}
+                      modeChange={this.handlelightmode}
                     />
                     <News
                       apiKey={this.state.apikey}

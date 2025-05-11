@@ -63,7 +63,7 @@ export class Contact extends Component {
               textShadow: "4px 4px 20px black",
             }}
           >
-            <h1 style={{ color: "#c94646" }}>Contact Page</h1>
+            <h1 style={{ color: "#eccbcb" }}>Contact Page</h1>
           </div>
 
           <div className="d-flex" style={{ paddingTop: "50px" }}>
@@ -78,7 +78,7 @@ export class Contact extends Component {
                   height: "70px",
                   marginTop: "20px",
                   textShadow: "4px 4px 10px black",
-                  color: "#873434",
+                  color: "#eccbcb",
                 }}
               >
                 <strong>Owner Contacts</strong>
@@ -191,7 +191,7 @@ export class Contact extends Component {
                   height: "70px",
                   marginTop: "20px",
                   textShadow: "4px 4px 10px black",
-                  color: "#873434",
+                  color: "#eccbcb",
                 }}
               >
                 <strong>User Contacts</strong>

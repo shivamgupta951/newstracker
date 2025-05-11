@@ -1,6 +1,7 @@
 import React, { Component } from "react";
 import bannerImage from "../images/AboutImage.png";
 import profileimage from "../images/ProfileImage.png";
+import { FaGithubSquare } from "react-icons/fa";
 export class About extends Component {
   render() {
     return (
@@ -66,7 +67,7 @@ export class About extends Component {
                 height: "160px",
                 padding: "20px",
                 textShadow: "4px 4px 20px black",
-                color: "#c94646",
+                color: "#eccbcb",
               }}
             >
               About NewsTracker
@@ -103,6 +104,9 @@ export class About extends Component {
                         the GNews API, it fetches and displays the latest
                         headlines, ensuring users stay informed about current
                         events.
+                      </p>
+                      <p>
+                        <strong>Created By shivamgupta951 <FaGithubSquare style={{fontSize:"30px"}}/></strong>
                       </p>
                     </div>
                   </div>
